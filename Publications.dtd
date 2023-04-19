@@ -21,10 +21,6 @@
 <!ATTLIST AuthorList CompleteYN (Y|N) "Y">
 <!ELEMENT Author (LastName, ForeName, Initials, Suffix?, AffiliationInfo?, CollectiveName?)>
 <!ATTLIST Author ValidYN (Y|N) "Y">
-<!ELEMENT LastName (#PCDATA)>
-<!ELEMENT ForeName (#PCDATA)>
-<!ELEMENT Initials (#PCDATA)>
-<!ELEMENT Suffix (#PCDATA)>
 <!ELEMENT AffiliationInfo (Affiliation)>
 <!ELEMENT Affiliation (#PCDATA)>
 <!ELEMENT CollectiveName (#PCDATA)>
