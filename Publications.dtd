@@ -3,6 +3,7 @@
 <!ATTLIST Article PMID CDATA #REQUIRED>
 <!ELEMENT PubDetails (Journal, ArticleTitle, AuthorList?)>
 <!ELEMENT Journal (ISSN?, JournalIssue, Title, ISOAbbreviation)>
+<!ELEMENT ISSN (#PCDATA)>
 <!ATTLIST ISSN IssnType CDATA #IMPLIED>
 <!ELEMENT JournalIssue (Volume, Issue, PubDate)>
 <!ATTLIST JournalIssue CitedMedium CDATA #IMPLIED>
