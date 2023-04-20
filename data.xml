@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Publicatios SYSTEM "Publications.dtd">
+<!DOCTYPE Publicatios SYSTEM "http://raw.githubusercontent.com/PranavBansal04/practicum2/main/Publications.dtd">
 <Publications>
   <Article PMID="1">
     <PubDetails>
